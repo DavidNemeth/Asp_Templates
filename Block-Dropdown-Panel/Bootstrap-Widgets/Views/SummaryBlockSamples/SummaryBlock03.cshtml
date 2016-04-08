@@ -1,0 +1,81 @@
+﻿@{
+  ViewBag.Title = "Read Me Box Sample - 1";
+}
+
+<!-- PDSA Readme Box Styles -->
+<style>
+  .pdsa-readme-box {
+    position: relative;
+    border-width: thin;
+    border-style: solid;
+    border-color: #31708f;
+    width: 100%;
+    padding: 1em;
+    opacity: 0.9;
+    min-height: 16em;
+  }
+
+    .pdsa-readme-box:hover {
+      opacity: 1;
+    }
+
+    .pdsa-readme-box .readme-header {
+      margin: -1em;
+      padding: 0.5em;
+      background-color: #31708f;
+      text-align: center;
+    }
+
+    .pdsa-readme-box .readme-body {
+      position: relative;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
+      .pdsa-readme-box .readme-body h1 {
+        font-size: x-large;
+      }
+
+      .pdsa-readme-box .readme-body p {
+        font-size: medium;
+      }
+
+    .pdsa-readme-box .readme-footer {
+      position: absolute;
+      bottom: 0em;
+      right: 0em;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 0.5em;
+      font-size: small;
+    }
+
+      .pdsa-readme-box .readme-footer a {
+        text-decoration: none;        
+        color: red;
+      }
+</style>
+
+<!-- Font Awesome Icons -->
+<link href="../Content/font-awesome.min.css" rel="stylesheet" />
+
+<div class="row">
+  <div class="col-xs-12 col-sm-3">
+    <div class="pdsa-readme-box">
+      <div class="readme-header">
+        <i class="fa fa-2x fa-bus"></i>
+      </div>
+      <div class="readme-body">
+        <h1>Free Delivery</h1>
+        <p>
+          Order today and we will pay for your shipping. Offer valid on any order over $25.
+        </p>
+      </div>
+      <div class="readme-footer">
+        <a href="#">
+          + Read More...
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
